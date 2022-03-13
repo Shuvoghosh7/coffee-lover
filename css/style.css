@@ -29,8 +29,17 @@ body{
     margin-left: 50px;
 
 }
-.home-button{
+.home-btn{
     margin-left: 50px;
     text-transform: capitalize;
     transition: .2s linear;
+    background-color: burlywood;
+    transition: width 1s ease-in-out 1s;  
+}
+.home-btn:hover{
+    width: 200px;  
+}
+.btn a{
+    text-decoration: none;
+    color: white;
 }
