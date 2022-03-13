@@ -60,3 +60,20 @@ body{
 .cart-btn:hover{
     width: 200px;
 }
+
+
+.icon{
+    color:white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.product-cart{
+    background-color: black;
+    border: 2px solid white;
+}
+.fa-star{
+    color: burlywood;
+    
+}
