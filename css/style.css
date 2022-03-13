@@ -31,10 +31,10 @@ body{
 }
 .home-btn{
     margin-left: 50px;
-    text-transform: capitalize;
+   
     transition: .2s linear;
     background-color: burlywood;
-    transition: width 1s ease-in-out 1s;  
+    transition: width 1s ease-in ;  
 }
 .home-btn:hover{
     width: 200px;  
@@ -74,6 +74,19 @@ body{
     border: 2px solid white;
 }
 .fa-star{
-    color: burlywood;
-    
+    color: burlywood;   
 }
+.photo-fram{
+    border: 2px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.photo-fram:hover img{
+    transform: scale(1.1) ;
+    transition: transform 1s ease-in ;
+}
+
+
+
+
