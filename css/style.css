@@ -43,3 +43,20 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.img-card{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.img-card:hover{
+    background-color: white;
+    color: black;
+}
+.cart-btn{
+  background-color:burlywood;
+  transition: width 5s;
+}
+.cart-btn:hover{
+    width: 200px;
+}
